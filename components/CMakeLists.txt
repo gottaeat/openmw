@@ -290,3 +290,5 @@ endif()
 set(COMPONENT_FILES ${COMPONENT_FILES} PARENT_SCOPE)
 
 target_compile_definitions(components PUBLIC BT_USE_DOUBLE_PRECISION)
+
+target_link_libraries(components "z" "X11" "Xrandr" "Xinerama" "fontconfig")
