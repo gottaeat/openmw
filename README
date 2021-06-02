@@ -1,0 +1,5 @@
+openmw
+======
+this repository contains openMW commit b2791fd4 with an awful hack to get the
+openmw linked with static libraries. also contains modified paths to install to
+outside of the rootfs without useless cruft.
